@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+    color: rgb(255, 167, 233);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-image: linear-gradient(lightblue, white);
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: blueviolet;
+    margin: 30px;
+    padding: 10px;
+}
+nav img{
+    width: 500px;
+    height: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    width: 700px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    opacity: 0.2;
+    width: 200px;
+    height: 250px;
+}
+
+.gallery img:hover {
+    opacity: 1;
+    margin: 30px;
+    border: 3px solid navy;
+}
+
+.text {
+    width: 300px;
+}
+.right {
+    text-align: right;
+}
