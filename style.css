@@ -1,61 +1,38 @@
 body {
-    font-family: sans-serif;
+    font-family: verdana;
+    background-image: linear-gradient(to top right, red, white)
 }
 
-h1 {
-    font-size: 50px;
+header p{
+    text-align: center;
+    color: white;
+    margin: 3%;
+    font-size: 100px;
+    background-image: url("https://www.bhmpics.com/downloads/christmas-background-aesthetic/32.aesthetic-christmas-03.jpg")
+}
+
+b{
+    color: red;
+}
+
+img{
+    height: 40%;
+    width:100%;
     text-align: center;
 }
 
-p {
-    font-size: 24px;
-    color: rgb(255, 167, 233);
+h1{ color: #a8e063;
+    text-align: center;
+    margin: 3%;
+    font-size: 95px;
 }
 
-nav {
-    display: flex;
-    justify-content: flex-end;
-    background-image: linear-gradient(lightblue, white);
-}
 
-nav a {
-    text-decoration: none;
-    font-size: 20px;
-    color: blueviolet;
-    margin: 30px;
+main p{
+    text-align: center;
+    margin: 3%;
+    font-size: 35px;
+    color: white;
+    background: rgb(064, 128, 072, 0.8);
     padding: 10px;
-}
-nav img{
-    width: 500px;
-    height: 200px;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-}
-
-.gallery {
-    display: flex;
-    width: 700px;
-    flex-wrap: wrap;
-}
-
-.gallery img {
-    opacity: 0.2;
-    width: 200px;
-    height: 250px;
-}
-
-.gallery img:hover {
-    opacity: 1;
-    margin: 30px;
-    border: 3px solid navy;
-}
-
-.text {
-    width: 300px;
-}
-.right {
-    text-align: right;
 }
